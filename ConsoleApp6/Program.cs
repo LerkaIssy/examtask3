@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp6
+﻿
+
+namespace ConsoleApp6
 {
     internal class Program
     {
