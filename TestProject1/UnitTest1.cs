@@ -4,8 +4,15 @@ namespace TestProject1
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Sum_AreEqual()
         {
+            int x = 5;
+            int y = 6;
+            int except = 11;
+
+
+            double actual = Solution.Class1.Sum(x, y);
+            Assert.AreEqual(except, actual);
         }
     }
 }

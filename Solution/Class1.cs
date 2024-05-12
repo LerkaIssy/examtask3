@@ -2,6 +2,12 @@
 {
     public class Class1
     {
+        public static int Sum(int nums, int nums1)
+        {
+            int sum = 0;
+            sum = nums + nums1;
+            return sum;
+        }
         public static int insert(out int[] massupply, out int[] masdemand, out bool closeness, out int[,] mastarif)
         {
 
